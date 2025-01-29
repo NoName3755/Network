@@ -1,0 +1,56 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#post-content {
+    min-height: 100px;
+    resize: none;
+}
+
+.form-control {
+    margin: .4em 0 .4em 0;
+}
+
+.text-link {
+    text-decoration: none;
+    color: black;
+}
+.text-link :hover {
+    text-decoration: underline;
+}
+
+#follow-btn {
+    color: #FFFFFF;
+    background-color: #007BFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#follow-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Unfollow Button */
+#unfollow-btn {
+    color: #FFFFFF;
+    background-color: #DC3545;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#unfollow-btn:hover {
+    background-color: #B02A37;
+}
+
+.likes-container {
+    cursor: pointer;
+}
